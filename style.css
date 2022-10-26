@@ -1,0 +1,38 @@
+tr:first-child {
+    background-color: #FF1493;
+    color: white;
+    border: none;
+   }
+  td, th {
+    padding: 10px;
+    text-align: start;
+   }
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: pink;
+  } 
+  #face {
+    background-color: #23A6F5;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+  }
+  #instagran {
+    background-color: #EA0C5F;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+  }
+  #tiktok {
+    background-color: #000000;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  tr:hover:not(:first-child) {
+    background: #00BFFF;  
+  }
